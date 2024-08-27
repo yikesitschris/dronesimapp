@@ -25,9 +25,9 @@ A web application that simulates drone detection, processes the data, and displa
    ```
 2. Run the setup script:
    - For Linux/MacOS:
-     `.\setup.sh`
+     ```.\setup.sh```
    - For Windows:
-     `setup.bat`
+     ```setup.bat```
 
 ### Usage
 
@@ -35,11 +35,11 @@ Running the Application
 
 1. Activate the virtual environment:
    - For Linux/MacOS:
-     `source api/venv/bin/activate`
+     ```source api/venv/bin/activate```
    - For Windows:
-     `call api\venv\Scripts\activate`
+     ```call api\venv\Scripts\activate```
 2. Start the flask server:
-   `python api/app.py`
+   ```python api/app.py```
 3. The React frontend should be served automatically from the build/ directory.
 4. Open your browser and navigate to http://127.0.0.1:5001 to view the data being sent.
 
