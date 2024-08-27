@@ -55,22 +55,7 @@ Running the Application
 
 ### Project Structure
 
-$ ./DRONE-SIM-APP.
-# Project tree
-
-.
- * [DRONE-SIM-APP](./DRONE-SIM-APP)
- * [build](./build)
- * [src](./src)
- * [api](./api)
-   * [venv/.ext](./venv)
-   * [app.py.ext](./app.py)
-   * [requirements.txt](./requirements.txt)
- * [setup.sh](./setup.sh)
- * [setup.bat](./setup.bat)
- * [.gitignore](./.gitignore)
- * [README.md](./README.md)
-
+```
 DRONE-SIM-APP/
 │
 ├── build/ # React build files (for production)
@@ -87,3 +72,4 @@ DRONE-SIM-APP/
 ├── .gitignore # Git ignore file
 │
 └── README.md # Project documentation
+```
